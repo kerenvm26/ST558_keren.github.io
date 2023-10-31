@@ -5,16 +5,36 @@ Many of the articles I've come across highlight the complexities of choosing var
 
 While various authors have discussed both traditional and innovative methods to tackle this challenge successfully, I'd like to share my approach in the following section. I will explain how I would address this challenge and provide recommendations for the techniques that I find most effective.
 
-## How I would plan to determine to variables to use in a regression model?
-1. Normally, I start thoroghly consider which of the variables would provide me useful insigths to my research obejctives if they are added into my regression model, which of them willprovide answers to my research questions.
-2. I develop a exploratory data analysis once I read my dataset into the program, to examine and understand the structure of the data, type of variables, and how the variables are distributed using contigency tables or visualizations.
-3. In case that the data is new for me, I look for information to leverage my domain knowledge and be able to identify meaningful variable to use in the regrssion modeling.
-4. Before going into modeling regression and maybe go variables that do not provide good fit due to multicollinearity, I perform correlation analysis to identify variables with high correlations may be strong candidates for inclusion in the model. But being cautious of multicollinearity, where predictors are highly correlated with each other which explain the same thing.
-Overall, choice of technique depends on factors like the dataset size, the presence of multicollinearity, and the importance of interpretability. 
+## How would I plan to determine the variables to use in a regression model?
+
+**1. Define the Research Problem:**
+Begin by clearly identifying your research problem and expected outcomes. This step will guide the selection of the appropriate analysis method.
+
+**2. Data Collection and Variable Selection:**
+Once you have collected or accessed your data, carefully assess which variables could provide valuable insights into your research objectives and answer your research questions. Consider these variables for inclusion in your regression model.
+
+**3. Exploratory Data Analysis (EDA):**
+After importing your dataset into your analysis program, perform exploratory data analysis (EDA) to examine the data's structure, variable types, and distribution. Utilize contingency tables and visualizations to enhance your understanding.
+
+**4. Leverage Domain Knowledge:**
+If the data is unfamiliar, seek domain-specific information to enhance your understanding and identify meaningful variables for regression modeling.
+
+**5. Correlation Analysis and Multicollinearity Consideration:**
+Before delving into regression modeling, conduct a correlation analysis to identify variables with strong correlations, making them prime candidates for inclusion in your model. Be cautious of multicollinearity, where predictors are highly correlated and provide redundant information.
+
+**6. Feature Selection and Hypothesis Testing:**
+Employ various feature selection techniques to pinpoint relevant variables. Additionally, use hypothesis tests to assess the statistical significance of variables, confirming their impact on the dependent variable.
+
+**7. Model Building and Performance Evaluation:**
+Construct regression models using different sets of variables and evaluate their performance by employing appropriate metrics.
+
+**8. Interpretability and Validation:**
+Ensure that your final model is interpretable and aligns with practical perspectives. Validate the model's generalizability by testing it on a separate dataset.
+
+In summary, the choice of technique should be based on factors such as dataset size, multicollinearity, and the importance of interpretability.
 
 ## What variable selection techniques do I prefer and why?
-Honestly, before this class I used to use only R-adjested squared and select the variables that provide me with the best R-adjusted squared. I did not about all traditional or alternative variable selection techniques. Before, no idea about Forward Selection (FS), Backward Elimination (BE), Stepwise (SW), Lasso regression, ridge regression, recursive feature elimitation, principal componen analysis, random forest or mutual information. There is a lot, am I rigth?. knowing now all of these possibles ways to identify acquare variables and going into the specification of all of them, I understand that  their application depends on the nature of the enalysis of I want to perform. It is not a "best" variable selection technique that applies to all situations. In general cases, I would feel biased for stepwise regression techniques like forward selection and backward elimination can help me systematically add or remove variables based on statistical criteria like AIC, BIC, or adjusted R-squared. This technique in combination with cross-validation techniques to assess the model's performance when using different sets of variables. This help me to identify the combination of variables that provides me with the best out-of-sample performance.
 
-But, general taling, the choice of the best technique depends on your specific problem, the nature of your data, and your objectives. It's often a good practice to try several methods, compare their results, and consider domain knowledge to make an informed decision on variable selection.
+Before enrolling in this class, my approach to variable selection was rather simplistic, relying solely on R-adjusted squared values to pick the variables that offered the highest scores. I was largely unaware of the array of traditional and alternative variable selection techniques available. Concepts such as Forward Selection (FS), Backward Elimination (BE), Stepwise (SW), Lasso regression, ridge regression, recursive feature elimination, principal component analysis, random forest, and mutual information were foreign to me. The sheer variety of methods for identifying and specifying variables became apparent as I delved into this course, revealing that the choice of technique largely depends on the specific nature of the analysis I aim to conduct. There is no universally 'best' variable selection technique applicable to all scenarios. _I've developed a particular affinity for stepwise regression techniques_, including forward selection and backward elimination, which systematically allow me to add or remove variables based on statistical criteria such as AIC, BIC, or adjusted R-squared. When combined with cross-validation techniques, these methods enable me to assess the model's performance with different sets of variables, facilitating the identification of the optimal variables that yield the best out-of-sample results.
 
-However, . However, I feel atracted 
+However, it's important to emphasize that selecting the most suitable technique is contingent upon the unique characteristics of your problem, the nature of your dataset, and your research objectives. A recommended practice is to experiment with multiple methods, compare their outcomes, and incorporate domain-specific knowledge to make an informed decision regarding variable selection."

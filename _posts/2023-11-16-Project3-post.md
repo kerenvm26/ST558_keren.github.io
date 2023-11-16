@@ -2,9 +2,7 @@
 # Project 3 Blog Post
 _by Keren Vivas_
 
-[Nicely rendered repo](https://jgally.github.io/ST558_Project_3/)
-
-[Usual github repo](https://github.com/jgally/ST558_Project_3.git)
+Embark on a journey through our Diabetes Health Indicator Project, where we delved into the intricacies of a specialized dataset. With a blend of data manipulation, exploratory analysis, and the thrill of experimenting with various models, our mission was clear: pinpoint the ultimate model capable of predicting values with the lowest logLoss metric. The magic didn't stop there – we conquered this challenge five times over, meticulously tailoring our approach for each education level within the dataset. Curious to know more? Take a stroll through our beautifully [rendered repository](https://jgally.github.io/ST558_Project_3/) or dive into the nitty-gritty details on our trusty [GitHub repository](https://github.com/jgally/ST558_Project_3.git) for even more detail about this project.
 
 ## _**What would we do differently?**_  
 We would kick off our process by confirming the absence of any pre-existing entries related to the "diabetes" condition in the entire dataset. This initial check is crucial to proactively prevent the computation of a factor with three levels. The realization of the absence of such entries occurred when errors surfaced, prompting us to take action and subsequently remove the unused levels.

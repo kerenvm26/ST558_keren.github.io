@@ -17,4 +17,4 @@ Our primary takeaway centers on an increased awareness of the specific data type
 
 And, last but certainly not least, let's shine a spotlight on the incredible effectiveness of my programming classmate! Their robust collaboration and unwavering support emerged as the secret sauce that truly elevated the success of our project!
 
-THANK YOU!!
+**THANK YOU!!**

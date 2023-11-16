@@ -16,3 +16,5 @@ The most challenging aspect for us, rather than difficult, was the estimation of
 Our primary takeaway centers on an increased awareness of the specific data types crucial for each function or calculation in development, as well as a keen understanding of the parameters of the models and the nature of predictions obtained. Rigorous checks have become second nature to guarantee that the code chunk consistently receives the appropriate type of data.
 
 And, last but certainly not least, let's shine a spotlight on the incredible effectiveness of my programming classmate! Their robust collaboration and unwavering support emerged as the secret sauce that truly elevated the success of our project!
+
+THANK YOU!!
